@@ -1,5 +1,5 @@
 const baseURL = 'https://api.github.com';
-const baseURL = 'https://api.github.com';
+
 const user = 'jsbenning';
 
 function getToken() {
