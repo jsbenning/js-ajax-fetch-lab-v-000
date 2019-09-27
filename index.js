@@ -16,8 +16,8 @@ function forkRepo() {
       Authorization: `token ${token}`,
     }
   })
-  .then(res => console.log(res))//res.json())
-  //.then(json => console.log(json));
+  .then(res => res.json())
+  .then(json => console.log(json));
   //use fetch to fork it!
 }
 
